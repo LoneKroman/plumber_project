@@ -1,0 +1,75 @@
+.top_menu {
+    max-width: 1150px;
+    width: 100%;
+    min-height: 180px;
+    margin-top: 50px;      
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;  
+    grid-template-rows: 1fr 3fr;    
+} 
+
+.logo {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;    
+    width: auto;    
+}
+
+.menu_container {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    margin-top: 10px;
+}
+
+.menu {
+    display: inline;   
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+.item {
+    font-family: 'montserrat', sans-serif;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    color: black;
+    display: inline;
+    margin-right: 25px;
+}
+
+.home {
+
+}
+
+.product {
+
+}
+
+.gallery {
+
+}
+
+.aboutus {
+
+}
+
+.contact {
+
+}
+
+.line {    
+      width: 1150px;
+      height: 1px;
+      background-color: #53c154;     
+      grid-column: 1 / 4;
+      grid-row: 2 / 3;    
+}
+
+
+    
+
