@@ -54,6 +54,15 @@ p {
   color: black;
 }
 
+/*.button_fonts {
+    font-family: 'montserrat', sans-serif;
+    font-style: normal;
+    font-weight:normal;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: white;
+}*/
 .top_menu {
   max-width: 1150px;
   width: 100%;
